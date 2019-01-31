@@ -1,0 +1,19 @@
+{
+    "name": "stephenwright/acme-application",
+    "description": "My great test application",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ste Wright",
+            "email": "stephen.wright@bauermedia.co.uk"
+        }
+    ],
+    "require": {
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AcmeApplication\\": "src/"
+        }
+    }
+}
